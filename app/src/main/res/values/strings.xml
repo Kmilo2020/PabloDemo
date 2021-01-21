@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PabloDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtHeader">Enter a City...</string>
+    <string name="btnMain">Whats the weather</string>
+    <string name="btnStart">GO!!</string>
+    <string name="txtTimer">30s</string>
+    <string name="txtScore">0/0</string>
+    <string name="txtSum">a + b</string>
+    <string name="txtResultCorrect">Correct!</string>
+    <string name="txtResultWrong">Wrong :(</string>
+    <string name="txtResultDone">Done!</string>
+    <string name="btnPlayAgainBrain">Play Again!!</string>
+    <string name="userYellow">Yellow</string>
+    <string name="userRed">Red</string>
+    <string name="txtWinner">has won!!</string>
+    <string name="btnPlayAgain">Play Again</string>
+    <string name="toastIsFullCounter">Sorry, it is full this counter</string>
+
+    <string name="bluemarlin_nombre">Bluemarlin</string>
+    <string name="bluemarlin_info">Makaira (Latin through Greek: sword) is a genus of marlin in the family Istiophoridae</string>
+    <string name="bluemarlin_detalle">Makaira (Latin through Greek: "sword") is a genus of marlin in the Istiophoridae family. Includes Atlantic blue, and Indo-Pacific blue marlin. In the past, the black marlin was also included in this genus, but today it is placed in its own genus, Istiompax. Although they are traditionally listed as separate species, recent research indicates that the Atlantic blue marlin (Makaira nigricans) and the Indo-Pacific blue marlin (Makaira mazara) may be disjoint strands of the same species.</string>
+
+    <string name="dolphinfish_nombre">Dolphinfish</string>
+    <string name="dolphinfish_info">Coryphaena is a genus of ray-finned fish known as dolphin fish</string>
+    <string name="dolphinfish_detalle">Coryphaena is a genus of ray-finned fish known as dolphin fish. This genus is currently the only known genus in its family. Species in this genus have compressed heads and unique dorsal fins that run the entire length of fish bodies. Dolphin fish are some of the fastest growing species in the ocean, serving as a primary food source for many pelagic predators. The dorado can reach up to 88 pounds (40 kg). Dolphin fish are not related to dolphins (which are mammals), and commercially their meat is often labeled with their Hawaiian name mahi-mahi to reduce potential public confusion. The origin of the name "golden" is recent, to avoid confusion with dolphins, since the traditional name of the fish was also dolphin. Why the mammal and fish were called dolphins is uncertain, but theories include that dolphin fish communicate using high-pitched sounds similar to dolphins, because they are the size of a small dolphin, or because of the dorado. (Spanish for "golden") which was supposedly historically used in Spanish for dolphins (dolphin) and dolphin.</string>
+
+    <string name="kingmackerel_nombre">King Mackerel</string>
+    <string name="kingmackerel_info">The sierra, barracuda or snoek (Thyrsites atun), is a long and thin fish, belonging to the actinopterygian class</string>
+    <string name="kingmackerel_detalle">The sierra, barracuda or snoek (Thyrsites atun), is a long and thin fish, belonging to the actinopterygian class, which inhabits the seas of the southern hemisphere. It can grow up to 2 m long and weigh up to 26 kg. It has a long dorsal fin which resembles that of the sailfish. Its coloration is bluish-gray. Found near continental shelves or around islands, it feeds on crustaceans, cephalopods, and small fish (such as anchovies and sardines). It is world-famous for being an excellent choice for sport fishing, as it is capable of putting up an exhaustive fight, with the current record of one hour and thirteen minutes. It is also an excellent piece for fly fishermen, as it can be found close to shore and ensures a successful and abundant catch.</string>
+
+    <string name="sailfish_nombre">Sailfish</string>
+    <string name="sailfish_info">Sailfish (Istiophorus spp.) Are two species of billfish that inhabit the Atlantic Ocean, the Gulf of Mexico, the Pacific Ocean, and the Indian Ocean.</string>
+    <string name="sailfish_detalle">Sailfish (Istiophorus spp.) Are two species of billfish that inhabit the Atlantic Ocean, the Gulf of Mexico, the Pacific Ocean, and the Indian Ocean. Due to their sail-shaped dorsal fin, their 3 meters long and more than 100 kilos of weight, they are said to be one of the most elegant specimens in the sea. In short distances, the metallic blue sailfish is one of the fastest fish in the sea. It can reach up to 119 km / h according to studies carried out thanks to its hydrodynamic and muscular body. It has a stiff, C-shaped tail, ideal for speed; and its tall dorsal fin, or sail, cuts through the water like a ship propeller. The muzzle tapers to a very sharp point. It feeds on fish and squid and releases its eggs in the high seas. At three meters long and weighing one hundred kilos, it is also one of the largest bony fish.</string>
+
+    <string name="snook_nombre">Snook</string>
+    <string name="snook_info">The snook (family Centropomidae with the only genus Centropomus) is a group of marine and freshwater fish included in the order Perciformes</string>
+    <string name="snook_detalle">The snook (Centropomidae family with the only genus Centropomus) is a group of marine and freshwater fish included in the order Perciformes. They are distributed by the rivers of all America and by the Atlantic Ocean. Morphologically they resemble perch with a concave mouth profile, with a maximum described length of 1.4 m. The dorsal fin divided in two, with 7 to 8 spines in the first half and 1 spine and 8 to 11 soft rays in the second, while the anal fin has 3 spines and 6 to 9 soft rays.</string>
+
+    <string name="tarpon_nombre">Tarpon</string>
+    <string name="tarpon_info">Tarpon are the genus Megalops, the only one of the Megalopidae family of fish, included in the order Elopiformes</string>
+    <string name="tarpon_detalle">The tarpon or tarpon are the genus Megalops, the only one of the Megalopidae family of fish, included in the order Elopiformes, mainly marine, although they go up the waters of rivers, distributed by tropical and subtropical waters. Large silver fish with a fusiform and compressed body, with a maximum length of about 2.2 m described; terminal mouth, oblique or superior, with the prominent lower jaw, with a ventral plate between the two gills or below the jaw; They have a single dorsal fin, which does not have spines and the last filamentous one has 13 to 21 rays; the pectoral fins are very low; the anal fin has 22 to 29 rays.</string>
+
+    <string name="tuna_nombre">Tuna</string>
+    <string name="tuna_info">The blue or common tuna (Thunnus thynnus), also called bluefin tuna, bluefin tuna, bighorn, or bigeye in the Canary Islands, is one of the species of tuna in the Scombridae family</string>
+    <string name="tuna_detalle">The blue or common tuna (Thunnus thynnus), also called bluefin tuna, bluefin tuna, bigeye tuna, or in the Canary Islands bigeye, is one of the species of tuna in the Scombridae family. It is well known as Atlantic bluefin tuna, giant bluefin tuna (for those individuals that exceed 150 kilograms), and formally as tuna. Bluefin tuna is native to both shores of the Atlantic, both the western and eastern shores, and also from the Mediterranean Sea. It is already extinct in the waters of the Black Sea and the Caspian Sea. This species from the Atlantic is very close to other species of bluefin tuna, such as the Pacific bluefin tuna and the southern bluefin tuna.</string>
+</resources>
