@@ -68,18 +68,18 @@ public class HikersActivity extends AppCompatActivity {
     }
 
     private void validateVersionSDK() {
-        if (Build.VERSION.SDK_INT < 23){
+        if (Build.VERSION.SDK_INT < 23) {
             startListening();
-        }else {
-            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,locationListener);
+        } else {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
                 Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
-                if (lastKnownLocation != null){
+                if (lastKnownLocation != null) {
                     updateLocationInfo(lastKnownLocation);
                 }
-            }else {
-                ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
+            } else {
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
             }
         }
     }
@@ -87,14 +87,20 @@ public class HikersActivity extends AppCompatActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             startListening();
         }
     }
 
     private void startListening() {
-        if (ContextCompat.checkSelfPermission(this,Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+            Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+            if (lastKnownLocation != null) {
+                updateLocationInfo(lastKnownLocation);
+            }
         }
     }
 
@@ -110,23 +116,23 @@ public class HikersActivity extends AppCompatActivity {
         address = "Could not find address :(";
 
         try {
-            List<Address> addressList = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(),1);
-            if (addressList != null && addressList.size() > 0){
+            List<Address> addressList = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+            if (addressList != null && addressList.size() > 0) {
                 Log.i("Place Info", addressList.get(0).toString());
                 address = "Address: \n";
-                if (addressList.get(0).getSubThoroughfare() != null){
+                if (addressList.get(0).getSubThoroughfare() != null) {
                     address += addressList.get(0).getSubThoroughfare() + " ";
                 }
-                if (addressList.get(0).getThoroughfare() != null){
+                if (addressList.get(0).getThoroughfare() != null) {
                     address += addressList.get(0).getThoroughfare() + " ";
                 }
-                if (addressList.get(0).getLocality() != null){
+                if (addressList.get(0).getLocality() != null) {
                     address += addressList.get(0).getLocality() + " ";
                 }
-                if (addressList.get(0).getPostalCode() != null){
+                if (addressList.get(0).getPostalCode() != null) {
                     address += addressList.get(0).getPostalCode() + " ";
                 }
-                if (addressList.get(0).getCountryName() != null){
+                if (addressList.get(0).getCountryName() != null) {
                     address += addressList.get(0).getCountryName();
                 }
                 Log.i("Address", address);
